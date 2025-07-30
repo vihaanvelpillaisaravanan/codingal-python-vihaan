@@ -14,4 +14,3 @@ if c2 < avg_speed:
 
 if c3 < avg_speed:
     print("speed of cyclist 3 is slower than average with the differance of:",avg_speed - c3 )
-60
