@@ -1,0 +1,25 @@
+import turtle
+screen = turtle.Screen()
+screen.title("rectangle using turtle")
+screen.bgcolor("lightcyan")
+screen.setup(600,600)
+
+t = turtle.Turtle()
+t.shape("arrow")
+t.color("brown")
+t.pensize(8)
+t.speed(1)
+t.fillcolor("brown")
+
+t.begin_fill()
+t.forward(200)
+t.left(90)
+t.forward(100)
+t.left(90)
+t.forward(200)
+t.left(90)
+t.forward(100)
+
+t.end_fill()
+t.hideturtle()
+turtle.done()
