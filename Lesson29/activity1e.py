@@ -2,7 +2,7 @@ import pygame
 
 pygame.init()
 
-screen = pygame.disolay.set_mode((400,500))
+screen = pygame.display.set_mode((400,500))
 
 done = False
 
@@ -14,3 +14,4 @@ while not done:
 
 
     pygame.display.flip()
+screen.mainloop()
